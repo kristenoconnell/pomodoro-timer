@@ -1,7 +1,6 @@
 import React from 'react';
 import {secondsToDuration} from '../utils/duration';
 
-
 function ProgressBar({ session, percentageComplete, timeRemaining }) {
 
 if (!session.stopped) {
