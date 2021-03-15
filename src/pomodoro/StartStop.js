@@ -2,6 +2,7 @@ import React from "react";
 import classNames from "../utils/class-names";
 
 function StartStop({ session, playPause, stopSession }) {
+    
     return (
         <div>
             <div className="row">
