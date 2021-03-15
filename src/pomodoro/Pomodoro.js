@@ -184,8 +184,7 @@ function playPause() {
         session={session}
         timeRemaining={timeRemaining}
         />
-    </div>
-   
+    </div> 
   );
 }
 
