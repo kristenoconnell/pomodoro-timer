@@ -11,8 +11,7 @@ return (
             <h2 data-testid="session-title"> {sessionTitle.name} for {sessionTitle.name==="Focusing" ? minutesToDuration(focusDuration) : minutesToDuration(breakDuration)} minutes</h2>
             {session.paused ? <p>PAUSED</p> : "" }
           </div>
-        </div>
-       
+        </div> 
     </div>
     )
 }
